@@ -12,7 +12,7 @@ app.use(cors())
 app.use(bodyParser.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/blogDB').then(()=>{
+mongoose.connect("mongodb+srv://joshua:Jo09sh01ua2005$@cluster0.pyyjjnq.mongodb.net/blogDB?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
     console.log("Connection Successfull")
 })
 
